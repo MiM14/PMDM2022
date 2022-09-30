@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/size_image"
+        android:layout_height="@dimen/size_image"
+        android:layout_margin="@dimen/size_margin"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_elefunfullsvg" />
+
+    <LinearLayout
+        android:layout_margin="@dimen/size_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="@dimen/size_text"
+            android:layout_height="match_parent"
+            android:text="@string/date"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:padding="@dimen/size_padding"
+            />
+
+        <TextView
+            android:layout_width="@dimen/size_text"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:padding="@dimen/size_padding"
+             />
+        <TextView
+            android:padding="@dimen/size_padding"
+            android:text="@string/lorem"
+            android:layout_width="@dimen/size_text"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:minLines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            />
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -13,14 +13,20 @@
         android:theme="@style/Theme.PMDM"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
-
+            android:name=".Ut01Ex04Activity"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity><activity
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ut01.ex03.Ut01Ex03Activity"
             android:exported="true">
             <intent-filter>
@@ -33,8 +39,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
-
     </application>
 
 </manifest>

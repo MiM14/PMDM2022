@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PMDM</string>
     <string name="label_app">Hello World!</string>
+    <string name="date">01/01/2022</string>
+    <string name="title">Titulo</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget facilisis arcu. Phasellus eu egestas ex. Vestibulum id nunc nec quam gravida dapibus ac id neque. Integer at libero euismod, fringilla nulla at, egestas elit. Praesent id leo tortor. Praesent fermentum magna lacus, ut laoreet lorem dignissim at. Mauris sit amet massa mauris. Mauris auctor, quam vel luctus tempor, lectus eros dapibus turpis, non aliquam sapien elit sit amet tellus. Praesent</string>
 </resources>

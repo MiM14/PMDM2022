@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/size_margin_small">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_size"
+        android:layout_margin="@dimen/size_margin"
+        app:srcCompat="@drawable/ic_elefunfullsvg"
+        android:id="@+id/elephant"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_text_small"
+        android:layout_marginLeft="@dimen/size_text_small"
+        android:layout_below="@+id/elephant"
+
+        />
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_below="@+id/title"
+        />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star1"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_star"
+        android:tint="@color/yellow"
+        android:layout_below="@+id/text01"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star2"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_star"
+        android:tint="@color/yellow"
+        android:layout_below="@+id/text01"
+        android:layout_toEndOf="@+id/star1"
+        />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star3"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_star"
+        android:tint="@color/yellow"
+        android:layout_below="@+id/text01"
+        android:layout_toEndOf="@+id/star2"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star4"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_star"
+        android:tint="@color/yellow"
+        android:layout_below="@+id/text01"
+        android:layout_toEndOf="@+id/star3"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star5"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_star"
+        android:tint="@color/yellow"
+        android:layout_below="@+id/text01"
+        android:layout_toEndOf="@+id/star4"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fav"
+        android:layout_width="@dimen/size_text_small"
+        android:layout_height="@dimen/size_text_small"
+        android:src="@drawable/ic_favorite"
+        android:tint="@color/red"
+        android:layout_below="@+id/text01"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+</RelativeLayout>

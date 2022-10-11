@@ -43,27 +43,27 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="@dimen/size_text_small"
             android:layout_height="@dimen/size_text_small"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_empty_star"
             android:tint="@color/yellow"/>
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="@dimen/size_text_small"
             android:layout_height="@dimen/size_text_small"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_empty_star"
             android:tint="@color/yellow"/>
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="@dimen/size_text_small"
             android:layout_height="@dimen/size_text_small"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_empty_star"
             android:tint="@color/yellow"/>
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="@dimen/size_text_small"
             android:layout_height="@dimen/size_text_small"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_empty_star"
             android:tint="@color/yellow"/>
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="@dimen/size_text_small"
             android:layout_height="@dimen/size_text_small"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_empty_star"
             android:tint="@color/yellow"/>
 
         <LinearLayout

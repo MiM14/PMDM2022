@@ -22,6 +22,7 @@
             android:textStyle="bold"
             />
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
@@ -29,6 +30,104 @@
             android:textStyle="bold"
             android:textColor="@color/teal_200"
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageLine1"
+        android:orientation="horizontal"
+        android:layout_below="@id/header1">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/l1i1"
+            android:layout_width="@dimen/size_image_big"
+            android:layout_height="@dimen/header_size"
+            android:src="@color/yellow"
+            android:layout_marginRight="@dimen/size_margin_small"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 Disponibles"
+                android:background="@color/red"
+                android:layout_margin="@dimen/size_margin_small"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle1"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage1"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l1i1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage1"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l1i1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2.99€"
+                android:layout_alignBottom="@id/l1i1"
+                android:layout_alignRight="@id/l1i1"
+                android:layout_margin="@dimen/size_margin_small"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/l1i2"
+            android:layout_width="@dimen/size_image_big"
+            android:layout_height="@dimen/header_size"
+            android:src="@color/red"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="3 Disponibles"
+            android:background="@color/yellow"
+            android:layout_margin="@dimen/size_margin_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle2"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage2"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l1i2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage2"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l1i2"/>
+
+
+        </RelativeLayout>
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -38,12 +137,137 @@
         android:id="@+id/header2"
         android:layout_marginTop="@dimen/size_margin"
         android:layout_margin="@dimen/size_margin_small"
-        android:layout_below="@id/header1">
+        android:layout_below="@id/imageLine1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sectionHeader2"
+            android:textSize="@dimen/size_text_small"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="@string/verTodo"
+            android:textStyle="bold"
+            android:textColor="@color/teal_200"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageLine2"
+        android:orientation="horizontal"
+        android:layout_below="@id/header2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/l2i1"
+                android:layout_width="@dimen/size_image_big"
+                android:layout_height="@dimen/header_size"
+                android:src="@color/yellow"
+                android:layout_marginRight="@dimen/size_margin_small"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 Disponibles"
+                android:background="@color/red"
+                android:layout_margin="@dimen/size_margin_small"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle3"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage3"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l2i1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage3"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l2i1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2.99€"
+                android:layout_alignBottom="@id/l2i1"
+                android:layout_alignRight="@id/l2i1"
+                android:layout_margin="@dimen/size_margin_small"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/l2i2"
+                android:layout_width="@dimen/size_image_big"
+                android:layout_height="@dimen/header_size"
+                android:src="@color/red"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 Disponibles"
+                android:background="@color/yellow"
+                android:layout_margin="@dimen/size_margin_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle4"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage4"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l2i2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage4"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l2i2"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/header3"
+        android:layout_marginTop="@dimen/size_margin"
+        android:layout_margin="@dimen/size_margin_small"
+        android:layout_below="@id/imageLine2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sectionHeader3"
             android:textSize="@dimen/size_text_small"
             android:textStyle="bold"
             />
@@ -59,30 +283,100 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/imageLine3"
         android:orientation="horizontal"
-        android:id="@+id/header3"
-        android:layout_marginTop="@dimen/size_margin"
-        android:layout_margin="@dimen/size_margin_small"
-        android:layout_below="@id/header2">
+        android:layout_below="@id/header3">
 
-
-        <TextView
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/sectionHeader2"
-            android:textSize="@dimen/size_text_small"
-            android:textStyle="bold"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="end"
-            android:text="@string/verTodo"
-            android:textStyle="bold"
-            android:textColor="@color/teal_200"
-            />
-    </LinearLayout>
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/l3i1"
+                android:layout_width="@dimen/size_image_big"
+                android:layout_height="@dimen/header_size"
+                android:src="@color/yellow"
+                android:layout_marginRight="@dimen/size_margin_small"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 Disponibles"
+                android:background="@color/red"
+                android:layout_margin="@dimen/size_margin_small"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle5"
+                />
 
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage5"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l3i1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage5"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l3i1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="2.99€"
+                android:layout_alignBottom="@id/l3i1"
+                android:layout_alignRight="@id/l3i1"
+                android:layout_margin="@dimen/size_margin_small"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/l3i2"
+                android:layout_width="@dimen/size_image_big"
+                android:layout_height="@dimen/header_size"
+                android:src="@color/red"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3 Disponibles"
+                android:background="@color/yellow"
+                android:layout_margin="@dimen/size_margin_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Pack Sorpresa"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageTitle6"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/starImage6"
+                android:layout_width="@dimen/size_text_small"
+                android:layout_height="@dimen/size_text_small"
+                android:src="@drawable/ic_halfstar"
+                android:layout_margin="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l3i2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="3.75"
+                android:layout_toRightOf="@+id/starImage6"
+                android:layout_marginBottom="@dimen/size_margin_small"
+                android:layout_alignBottom="@id/l3i2"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
 
 </RelativeLayout>

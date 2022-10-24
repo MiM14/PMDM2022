@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size_image">250dp</dimen>
+    <dimen name="size_image_big">300dp</dimen>
+    <dimen name="size_image_medium">160dp</dimen>
     <dimen name="size_margin">40dp</dimen>
-    <dimen name="size_text">160sp</dimen>
+    <dimen name="size_text_big">160sp</dimen>
     <dimen name="size_padding">30dp</dimen>
-    <dimen name="header_size">120dp</dimen>
+    <dimen name="header_size">150dp</dimen>
     <dimen name="size_text_small">22sp</dimen>
     <dimen name="size_margin_small">10dp</dimen>
 </resources>
